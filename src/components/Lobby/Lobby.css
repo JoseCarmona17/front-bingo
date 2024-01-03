@@ -1,0 +1,12 @@
+.containerLobby{
+    display: flex;
+}
+
+.containerButton{
+    padding-top: 14rem;
+}
+
+.buttonInit{
+    font-size: 20px;
+    height: 3rem;
+}

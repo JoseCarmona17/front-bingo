@@ -1,0 +1,111 @@
+.listUsers{
+    margin-top: 10rem;
+    margin-left: 2rem;
+    width: 17rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    color: black;
+    border-radius: 10px;
+}
+
+.bingoCard {
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    width: 20rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    color: black;
+    border-radius: 10px;
+}
+  
+.bingoGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+  
+.columna {
+    padding: 5px;
+    text-align: center;
+}
+  
+.letra {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+  
+.numero {
+    font-size: 1.2em;
+    margin-top: 5px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer; /* Agrega esto para indicar que es interactivo */
+}
+  
+.numero.selected {
+    background-color: #007bff; /* Cambia el color de fondo para los números seleccionados */
+    color: #fff; /* Cambia el color del texto para los números seleccionados */
+}
+  
+button {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+
+.balotaBox {
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    width: 20rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .balotas-container {
+    max-height: 20rem; /* Establece la altura máxima que desees */
+    overflow-y: auto; /* Habilita el desplazamiento vertical cuando sea necesario */
+  }
+  
+  .balotas {
+    display: flex;
+    flex-wrap: wrap; /* Envuelve las balotas en varias líneas si no caben en una sola línea */
+    gap: 5px; /* Espaciado entre las balotas */
+  }
+
+/* Ajustes de estilos para la balota actual */
+.currentBalota {
+    margin-top: 10rem;
+    margin-right: 2rem;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+    color: black;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+}
